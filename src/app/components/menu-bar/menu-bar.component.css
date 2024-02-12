@@ -1,0 +1,38 @@
+.container-menu-bar{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15pt;
+}
+
+.container-menu-bar > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.container-menu-bar > ul > li{
+  margin-left: 50px;
+
+}
+
+.container-menu-bar > ul > li{
+list-style-type: none;
+}
+
+@media screen and (max-width:811px) {
+  .container-menu-bar {
+    font-size: 12pt;
+
+  }
+}
+
+@media screen and (max-width: 811px) {
+  .container-menu-bar {
+    font-size: 12pt;
+  }
+
+  .container-menu-bar > ul > li {
+    margin-left: 20px; /* Altere o espaçamento entre os itens do menu para se ajustar melhor em telas menores */
+  }
+}

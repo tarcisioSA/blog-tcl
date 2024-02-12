@@ -1,0 +1,40 @@
+.container-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.content-cover > img {
+  border: solid rgb(145, 145, 145) 5px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.content-description {
+  margin-top: 25px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.content-description > p {
+  color: gray;
+}
+
+@media screen and (max-width: 900px) {
+  .content-description {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content-cover > img {
+    max-width: 100%; 
+  }
+}
+

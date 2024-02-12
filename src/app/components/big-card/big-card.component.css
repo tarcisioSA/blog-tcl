@@ -1,0 +1,71 @@
+.container-bigcard{
+
+
+  margin-right: 25px;
+  width: 631px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.big-card-title > h2{
+  font-size: 20pt;
+  margin-top: 20PX;
+  margin-bottom: 10PX;
+}
+
+.big-card-description > p > a {
+  color: rgb(110, 98, 98);
+}
+
+.big-card-description{
+  margin-top: 20px;
+  font-size: 12pt;
+}
+
+.big-card-description > p > a:hover{
+  color: rgb(253, 78, 78);
+  transition: 0.5s;
+}
+
+.big-card-photo > a > img{
+  width: 100%;
+  height: 100%;
+
+}
+
+.big-card-photo > a > img:hover{
+  -moz-transform: scale(1.03);
+  transition: 0.5s;
+}
+
+.big-card-title > h2 > a{
+
+  transition: 0.5s;
+}
+
+.big-card-title > h2 >a:hover{
+  color: red;
+  font-size: 23pt;
+}
+
+@media only screen and (max-width: 767px) {
+  .container-bigcard {
+    margin-right: 0;
+    width: auto;
+    height: auto;
+    align-items: center;
+  }
+
+  .big-card-title > h2 {
+    font-size: 16pt;
+  }
+
+  .big-card-description {
+    font-size: 10pt;
+  }
+}
+
+
